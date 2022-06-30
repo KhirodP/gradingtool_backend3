@@ -1,0 +1,59 @@
+{
+	"PIAName": "Abbey West Services",
+	"partnerId": "P_00001",
+	"District": "A",
+	"HeadPerson": "HeadPerson",
+	"Contact": "",
+	"HeadPersonEmail": "headperson@email.com",
+	"Status": true,
+	"Score": {
+		"centreRating": 74.0,
+		"projectGrading": 76.0,
+		"finalAvg": 75.0,
+		"Grade": "B"
+	},
+	"project": {
+		"projectId": "",
+		"projectName": "",
+		"form": {
+			"formType": "Grading",
+			"formId": "sdfg8sn-sndf0-nsln-qqq1",
+			"fieldAuditor": {
+				"fieldAuditorName": "FA_NAME",
+				"fieldAuditorPhone": "9898989898",
+				"fieldAuditorLocation": "FA_LOCATION",
+				"SecondaryfieldAuditorName": "SEC_FA_NAME",
+				"FAStartTime": "10:15 AM",
+				"FAEndTime": "10:35 AM",
+				"FAStartDate": "06-01-2021",
+				"FAEndDate": "06-01-2021",
+				"signOffTime": "10:40 AM",
+				"otp": "sdf45sd63d4f6"
+			},
+			"formName": "INTERNET RESOURCES FORM",
+			"status": true,
+			"MaxMarks": 100,
+			"SAScorce": 75,
+			"FAScore": 84,
+			"timing": {
+				"startTime": "04:20 PM",
+				"endTime": "04:20 PM",
+				"startDate": "01-01-2020",
+				"endDate": "01-01-2020"
+			},
+			"sections": [
+				{
+					"sectionId": "Section 1",
+					"parameters": [
+						{
+							"parameterId": "01",
+							"MaxMarks": 10,
+							"SAScorce": 9,
+							"FAScore": 8
+						}
+					]
+				}
+			]
+		}
+	}
+}

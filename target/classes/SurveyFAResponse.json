@@ -1,0 +1,122 @@
+{
+  "isSubmited": false,
+  "surveyId": "DF982926-8BB2-4C72-B6CD-9547252EA664",
+  "submitTime": "06-01-2021 16:46:22",
+  "ResponderType": "Field-Auditor",
+  "saveTime": "06-01-2021 16:46:22",
+  "auditForId": "TcId/PatnerId",
+  "auditFor": "TC/Patner",
+  "surveyResponseData": [
+    {
+      "sectionId": "section 1",
+      "sectionResponseData": [
+        {
+          "questionId": "001",
+          "isResponded": "Yes",
+          "responseData": {
+            "optionId": "A",
+            "sectionName": "section1",
+            "inputFieldResponse": "",
+            "MediaResponse": [
+              {
+                "mediaId": "0610D285-8726-4393-A9CB-AA17EB67FA04",
+                "mediaName": "Photo1.jpg"
+              }			  
+            ]
+          }
+        },
+        {
+          "questionId": "002",
+          "isResponded": "Yes",
+          "responseData": {
+            "optionId": [
+              "A",
+              "B"
+            ],
+            "sectionName": "section1",
+            "inputFieldResponse": "asajsajshjhjshasjah",
+            "MediaResponse": [
+
+            ]
+          }
+        },
+        {
+          "questionId": "003",
+          "isResponded": "Yes",
+          "responseData": {
+            "sectionName": "section2",
+            "optionId": [
+              "A",
+              "B"
+            ],
+            "inputFieldResponse": "",
+            "MediaResponse": [
+ 
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "section 2",
+      "sectionResponseData": [
+        {
+          "questionId": "001",
+          "isResponded": "Yes",
+          "responseData": {
+            "sectionName": "section2",
+            "inputFieldResponse": "sdsd",
+            "MediaResponse": [
+             
+            ]
+          }
+        },
+        {
+          "questionId": "002",
+          "isResponded": "Yes",
+          "responseData": {
+            "sectionName": "section2",
+            "optionId": "C",
+            "inputFieldResponse": "",
+            "MediaResponse": [
+              {
+                "mediaId": "616B5DE6-C01E-4798-AB3E-3C438271A517",
+                "mediaName": "Photo2.jpg"
+              }
+            ]
+          }
+        },
+        {
+          "questionId": "003",
+          "isResponded": "Yes",
+          "responseData": {
+            "sectionName": "section2",
+            "optionId": [
+              "A",
+              "B",
+              "C"
+            ],
+            "inputFieldResponse": "",
+            "MediaResponse": [
+
+            ]
+          }
+        },
+        {
+          "questionId": "004",
+          "isResponded": "Yes",
+          "responseData": {
+            "sectionName": "section2",
+            "inputFieldResponse": "sdsd",
+            "MediaResponse": [
+             	{
+                "mediaId": "9E8680F3-7075-4324-98D9-6485D20C5761",
+                "mediaName": "Photo3.jpg"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

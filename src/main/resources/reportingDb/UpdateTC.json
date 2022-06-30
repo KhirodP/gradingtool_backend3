@@ -1,0 +1,13 @@
+{
+	"projectId": "abc-project-001",
+	"partnerId":"abc-partner-002",
+	"trainingCenter": {
+		"tcId": "TC_1",
+		"tcName": "Updated_TC_ABC",
+		"centerAddress": "Updated_HSR Layout",
+		"district": "Banglore",
+		"latitude": 57.1234,
+		"longitude": 79.6589
+	}
+}		
+		

@@ -1,0 +1,81 @@
+{
+  "Status": false,
+  "Score": {
+    "projectGrading": 0.0,
+    "finalAvg": 0.0,
+    "Grade": "",
+    "centreRating": 0.0
+  },
+  "HeadPerson": "ram",
+  "project": {
+    "form": {
+      "formId": "3CE88D14-54A4-4BD2-810F-BDE305284691",
+      "formType": "Grading",
+      "MaxMarks": 130,
+      "fieldAuditor": {
+        "fieldAuditorLocation": "fieldAuditorLocation",
+        "FAStartTime": "10:15 AM",
+        "FAEndTime": "10.20 AM",
+        "fieldAuditorName": "Elango",
+        "fieldAuditorPhone": "8828828828",
+        "SecondaryfieldAuditorName": "nil",
+        "FAEndDate": "16-02-2021",
+        "signOffTime": "",
+        "otp": "",
+        "FAStartDate": "15-02-2021"
+      },
+      "formName": "Project-1-Form-1",
+      "FAScore": 120,
+      "sections": [
+        {
+          "sectionId": "section 1",
+          "parameters": [
+            {
+              "parameterId": "001",
+              "MaxMarks": 15,
+              "FAScore": 14
+            },
+            {
+              "parameterId": "002",
+              "MaxMarks": 6,
+              "FAScore": 5
+            },
+            {
+              "parameterId": "003",
+              "MaxMarks": 28,
+              "FAScore": 27
+            }
+          ]
+        },
+        {
+          "sectionId": "section 2",
+          "parameters": [
+            {
+              "parameterId": "001",
+              "MaxMarks": 20,
+              "FAScore": 19
+            },
+            {
+              "parameterId": "002",
+              "MaxMarks": 30,
+              "FAScore": 29
+            },
+            {
+              "parameterId": "003",
+              "MaxMarks": 28,
+              "FAScore": 27
+            }
+          ]
+        }
+      ],
+      "status": false
+    },
+    "projectName": "Project-1",
+    "projectId": "18EC6BFB-711C-47ED-8237-DF23A32F06F4"
+  },
+  "partnerId": "9c361acd-2f34-40c1-8412-22d818ab7b9b",
+  "District": "",
+  "HeadPersonEmail": "apple@gmail.com",
+  "PIAName": "Apple",
+  "Contact": "9088451145"
+}

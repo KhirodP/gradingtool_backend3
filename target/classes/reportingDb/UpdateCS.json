@@ -1,0 +1,10 @@
+{
+	"projectId": "abc-project-001",
+	"partnerId":"abc-partner-002",
+	"clientSponser": {
+         "csName":"CS_Name",
+		 "csPhone":"9191919191",
+         "csEmail":"cs@email.com"
+     }
+}		
+		

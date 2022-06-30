@@ -1,0 +1,68 @@
+{
+	"PIAName": "Abbey West Services",
+	"District": "A",
+	"HeadPerson": "HeadPerson",
+	"Contact": "",
+	"HeadPersonEmail": "headperson@email.com",
+	"Status": true,
+	"Score": {
+		"centreRating": 74.0,
+		"projectGrading": 76.0,
+		"finalAvg": 75.0,
+		"Grade": "B"
+	},
+	"trainingCenter": {
+		"tcId": "TC_1",
+		"tcName": "TC_ABC",
+		"centerAddress": "HSR Layout",
+		"cicName": "cicName",
+		"cicPhone": "9696969699",
+		"district": "Banglore",
+		"latitude": 56.1234,
+		"longitude": 78.6589
+	},
+	"project": {
+		"projectId": "",
+		"projectName": "",
+		"form": {
+			"formType": "Rating",
+			"formId": "4gjs-kshs-nshd-qhdj123",
+			"fieldAuditor": {
+				"fieldAuditorName": "FA_NAME",
+				"fieldAuditorPhone": "9898989898",
+				"fieldAuditorLocation": "FA_LOCATION",
+				"SecondaryfieldAuditorName": "SEC_FA_NAME",
+				"FAStartTime": "10:15 AM",
+				"FAEndTime": "10:35 AM",
+				"FAStartDate": "06-01-2021",
+				"FAEndDate": "06-01-2021",
+				"signOffTime": "10:40 AM",
+				"otp": "sdf45sd63d4f6"
+			},
+			"formName": "COMPUTER LAB FORM",
+			"status": true,
+			"MaxMarks": 100,
+			"SAScorce": 75,
+			"FAScore": 84,
+			"timing": {
+				"startTime": "11:00 AM",
+				"endTime": "11:15 AM",
+				"startDate": "04-01-2021",
+				"endDate": "04-01-2021"
+			},
+			"sections": [
+				{
+					"sectionId": "Section 1",
+					"parameters": [
+						{
+							"parameterId": "01",
+							"MaxMarks": 10,
+							"SAScorce": 9,
+							"FAScore": 8
+						}
+					]
+				}
+			]
+		}
+	}
+}

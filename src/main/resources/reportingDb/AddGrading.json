@@ -1,0 +1,95 @@
+{
+  "Status": false,
+  "Score": {
+    "projectGrading": 0.0,
+    "finalAvg": 0.0,
+    "Grade": "",
+    "centreRating": 0.0
+  },
+  "HeadPerson": "ram",
+  "project": {
+    "form": {
+      "formId": "3CE88D14-54A4-4BD2-810F-BDE305284691",
+      "formType": "Grading",
+      "SAScorce": 0,
+      "MaxMarks": 130,
+      "fieldAuditor": {
+        "fieldAuditorLocation": "",
+        "FAStartTime": "",
+        "FAEndTime": "",
+        "fieldAuditorName": "",
+        "fieldAuditorPhone": "",
+        "SecondaryfieldAuditorName": "",
+        "FAEndDate": "",
+        "signOffTime": "",
+        "otp": "",
+        "FAStartDate": ""
+      },
+      "timing": {
+        "endDate": "",
+        "startTime": "",
+        "endTime": "",
+        "startDate": ""
+      },
+      "formName": "Project-1-Form-1",
+      "FAScore": 0,
+      "sections": [
+        {
+          "sectionId": "section 1",
+          "parameters": [
+            {
+              "SAScorce": 0,
+              "parameterId": "001",
+              "MaxMarks": 15,
+              "FAScore": 0
+            },
+            {
+              "SAScorce": 0,
+              "parameterId": "002",
+              "MaxMarks": 6,
+              "FAScore": 0
+            },
+            {
+              "SAScorce": 0,
+              "parameterId": "003",
+              "MaxMarks": 28,
+              "FAScore": 0
+            }
+          ]
+        },
+        {
+          "sectionId": "section 2",
+          "parameters": [
+            {
+              "SAScorce": 0,
+              "parameterId": "001",
+              "MaxMarks": 20,
+              "FAScore": 0
+            },
+            {
+              "SAScorce": 0,
+              "parameterId": "002",
+              "MaxMarks": 30,
+              "FAScore": 0
+            },
+            {
+              "SAScorce": 0,
+              "parameterId": "003",
+              "MaxMarks": 28,
+              "FAScore": 0
+            }
+          ]
+        }
+      ],
+      "status": false
+    },
+    "projectName": "Project-1",
+    "projectId": "18EC6BFB-711C-47ED-8237-DF23A32F06F4"
+  },
+  "partnerId": "ADC89C8B-DC02-4EFE-BE69-9166B4D949F2",
+  "District": "",
+  "HeadPersonEmail": "apple@gmail.com",
+  "PIAName": "Apple",
+  "Contact": "9088451145"
+
+}

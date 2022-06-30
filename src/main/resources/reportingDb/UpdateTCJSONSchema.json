@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "projectId": {
+      "type": "string"
+    },
+    "partnerId": {
+      "type": "string"
+    },
+    "trainingCenter": {
+      "type": "object",
+      "properties": {
+        "tcId": {
+          "type": "string"
+        },
+        "tcName": {
+          "type": "string"
+        },
+        "centerAddress": {
+          "type": "string"
+        },
+        "district": {
+          "type": "string"
+        },
+        "latitude": {
+          "type": "number",
+          "minimum": -90,
+      	  "maximum": 90
+        },
+        "longitude": {
+          "type": "number",
+           "minimum": -180,
+      	   "maximum": 180
+        }
+      },
+      "required": [
+        "tcId",
+        "tcName",
+        "centerAddress",
+        "district",
+        "latitude",
+        "longitude"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "projectId",
+    "partnerId",
+    "trainingCenter"
+  ],
+  "additionalProperties": false
+}

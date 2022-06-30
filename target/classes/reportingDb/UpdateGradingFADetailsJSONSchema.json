@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "projectId": {
+      "type": "string"
+    },
+    "partnerId": {
+      "type": "string"
+    },
+    "formId": {
+      "type": "string"
+    },
+    "fieldAuditor": {
+      "type": "object",
+      "properties": {
+        "fieldAuditorName": {
+          "type": "string"
+        },
+        "fieldAuditorPhone": {
+          "type": "string",
+           "maxLength":10
+        }
+      },
+      "required": [
+        "fieldAuditorName",
+        "fieldAuditorPhone"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "projectId",
+    "partnerId",
+    "formId",
+    "fieldAuditor"
+  ],
+  "additionalProperties": false
+}
+

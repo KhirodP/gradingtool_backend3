@@ -1,0 +1,33 @@
+#micronaut:
+#  application:
+#    name: gradingTool
+#  server:
+#       max-request-size: '500MB'
+#       multipart:
+#           max-file-size: '500MB'
+#       cors:
+#            enabled: true
+micronaut:  
+  datasource:
+    url: jdbc:sqlserver://gardingtoolserver.database.windows.net:1433
+    driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    database: gradingtooldatabase
+    user: gradingtoolserveradmin
+    password: ThisIsDbP@ssword           
+           
+#micronaut:
+#   datasource:
+#      url: 'jdbc:sqlserver://gradingserver.database.windows.net:1433;database=GradingDB;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;'
+#      user: 'gradingserveradmin@gradingserver;'
+#      password: 'ThisIsDbP@ssword;'   
+#      
+#   
+
+#
+#micronaut:
+#  datasources:
+#    url: jdbc:sqlserver://damsdbserver.database.windows.net:1433;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+#    database: DAMSDatabase@damsdbserver;
+#    user: damsdbserver;
+#    password: pass@123;            
+  

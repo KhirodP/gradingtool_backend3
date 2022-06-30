@@ -1,0 +1,128 @@
+{
+	"PIAName": "Abbey West Services",
+	"partnerId":"partner_UUID",
+	"District": "A",
+	"HeadPerson": "HeadPerson",
+	"Contact": "8080808080",
+	"HeadPersonEmail": "headperson@email.com",
+	"Status": true,
+	"Score": {
+		"centreRating": 74.0,
+		"projectGrading": 76.0,
+		"finalAvg": 75.0,
+		"Grade": "B"
+	},
+	"project": {
+		"projectId": "jsd9-sns0-sn3-snawq8",
+		"projectName": "Test Project",
+		"form": {
+			"formType": "Rating",
+			"formId": "4gjs-kshs-nshd-qhdj123",
+			"fieldAuditor": {
+				"fieldAuditorName": "FA_NAME",
+				"fieldAuditorPhone": "9898989898",
+				"fieldAuditorLocation": "FA_LOCATION",
+				"SecondaryfieldAuditorName": "SEC_FA_NAME",
+				"FAStartTime": "10:15 AM",
+				"FAEndTime": "10:35 AM",
+				"FAStartDate": "06-01-2021",
+				"FAEndDate": "06-01-2021",
+				"signOffTime": "10:40 AM",
+				"otp": "sdf45sd63d4f6"
+			},
+			"formName": "COMPUTER LAB FORM",
+			"status": true,
+			"MaxMarks": 100,
+			"SAScorce": 75,
+			"FAScore": 84,
+			"timing": {
+				"startTime": "11:00 AM",
+				"endTime": "11:15 AM",
+				"startDate": "04-01-2021",
+				"endDate": "04-01-2021"
+			},
+			"sections": [
+				{
+					"sectionId": "RF-Section 1",
+					"parameters": [
+						{
+							"parameterId": "S1-P-01",
+							"MaxMarks": 10,
+							"SAScorce": 9,
+							"FAScore": 8
+						},
+						{
+							"parameterId": "S1-P-02",
+							"MaxMarks": 10,
+							"SAScorce": 8,
+							"FAScore": 7
+						},
+						{
+							"parameterId": "S1-P-03",
+							"MaxMarks": 10,
+							"SAScorce": 7,
+							"FAScore": 6
+						},
+						{
+							"parameterId": "S1-P-04",
+							"MaxMarks": 10,
+							"SAScorce": 6,
+							"FAScore": 5
+						}
+					]
+				},
+				{
+					"sectionId": "RF-Section 2",
+					"parameters": [
+						{
+							"parameterId": "S2-P-01",
+							"MaxMarks": 10,
+							"SAScorce": 9,
+							"FAScore": 8
+						},
+						{
+							"parameterId": "S2-P-02",
+							"MaxMarks": 10,
+							"SAScorce": 9,
+							"FAScore": 8
+						},
+						{
+							"parameterId": "S2-P-03",
+							"MaxMarks": 10,
+							"SAScorce": 9,
+							"FAScore": 8
+						}
+					]
+				},
+				{
+					"sectionId": "RF-Section 3",
+					"parameters": [
+						{
+							"parameterId": "S3-P-01",
+							"MaxMarks": 10,
+							"SAScorce": 9,
+							"FAScore": 8
+						},
+						{
+							"parameterId": "S3-P-02",
+							"MaxMarks": 10,
+							"SAScorce": 9,
+							"FAScore": 8
+						}
+					]
+				},
+				{
+					"sectionId": "RF-Section 4",
+					"parameters": [
+						{
+							"parameterId": "S4-P-01",
+							"MaxMarks": 10,
+							"SAScorce": 9,
+							"FAScore": 8
+						}
+					]
+				}
+			]
+		}
+	}
+}

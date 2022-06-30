@@ -1,0 +1,288 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"type": "object",
+	"properties": {
+		"PIAName": {
+			"type": "string"
+		},
+		"partnerId": {
+			"type": "string"
+		},
+		"HeadPerson": {
+			"type": "string"
+		},
+		"Contact": {
+			"type": "string",
+			"maxLength": 10
+		},
+		"HeadPersonEmail": {
+			"type": "string"
+		},
+		"Status": {
+			"type": "boolean"
+		},
+		"Score": {
+			"type": "object",
+			"properties": {
+				"centreRating": {
+					"type": "number"
+				},
+				"projectGrading": {
+					"type": "number"
+				},
+				"finalAvg": {
+					"type": "number"
+				},
+				"Grade": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"centreRating",
+				"projectGrading",
+				"finalAvg",
+				"Grade"
+			],
+			"additionalProperties": false
+		},
+		"trainingCenter": {
+			"type": "object",
+			"properties": {
+				"tcId": {
+					"type": "string"
+				},
+				"tcName": {
+					"type": "string"
+				},
+				"centerAddress": {
+					"type": "string"
+				},
+				"cicName": {
+					"type": "string"
+				},
+				"cicPhone": {
+					"type": "string",
+					"maxLength": 10
+				},
+				"district": {
+					"type": "string"
+				},
+				"latitude": {
+					"type": "number",
+					"minimum": -90,
+					"maximum": 90
+				},
+				"longitude": {
+					"type": "number",
+					"minimum": -180,
+					"maximum": 180
+				}
+			},
+			"required": [
+				"tcId",
+				"tcName",
+				"centerAddress",
+				"cicName",
+				"cicPhone",
+				"district",
+				"latitude",
+				"longitude"
+			],
+			"additionalProperties": false
+		},
+		"project": {
+			"type": "object",
+			"properties": {
+				"projectId": {
+					"type": "string"
+				},
+				"projectName": {
+					"type": "string"
+				},
+				"form": {
+					"type": "object",
+					"properties": {
+						"formType": {
+							"type": "string",
+							"enum": [
+								"Rating"
+							]
+						},
+						"formId": {
+							"type": "string"
+						},
+						"fieldAuditor": {
+							"type": "object",
+							"properties": {
+								"fieldAuditorName": {
+									"type": "string"
+								},
+								"fieldAuditorPhone": {
+									"type": "string"
+								},
+								"fieldAuditorLocation": {
+									"type": "string"
+								},
+								"SecondaryfieldAuditorName": {
+									"type": "string"
+								},
+								"FAStartTime": {
+									"type": "string"
+								},
+								"FAEndTime": {
+									"type": "string"
+								},
+								"FAStartDate": {
+									"type": "string"
+								},
+								"FAEndDate": {
+									"type": "string"
+								},
+								"signOffTime": {
+									"type": "string"
+								},
+								"otp": {
+									"type": "string"
+								}
+							},
+							"required": [
+								"fieldAuditorName",
+								"fieldAuditorPhone",
+								"fieldAuditorLocation",
+								"SecondaryfieldAuditorName",
+								"FAStartTime",
+								"FAEndTime",
+								"FAStartDate",
+								"FAEndDate",
+								"signOffTime",
+								"otp"
+							],
+							"additionalProperties": false
+						},
+						"formName": {
+							"type": "string"
+						},
+						"status": {
+							"type": "boolean"
+						},
+						"MaxMarks": {
+							"type": "integer"
+						},
+						"SAScorce": {
+							"type": "integer"
+						},
+						"FAScore": {
+							"type": "integer"
+						},
+						"timing": {
+							"type": "object",
+							"properties": {
+								"startTime": {
+									"type": "string"
+								},
+								"endTime": {
+									"type": "string"
+								},
+								"startDate": {
+									"type": "string"
+								},
+								"endDate": {
+									"type": "string"
+								}
+							},
+							"required": [
+								"startTime",
+								"endTime",
+								"startDate",
+								"endDate"
+							],
+							"additionalProperties": false
+						},
+						"sections": {
+							"type": "array",
+							"items": {
+								"type": "object",
+								"properties": {
+									"sectionId": {
+										"type": "string"
+									},
+									"parameters": {
+										"type": "array",
+										"items": {
+											"type": "object",
+											"properties": {
+												"parameterId": {
+													"type": "string"
+												},
+												"MaxMarks": {
+													"type": "integer"
+												},
+												"SAScorce": {
+													"type": "integer"
+												},
+												"FAScore": {
+													"type": "integer"
+												},
+												"saRemark": {
+													"type": "string"
+												},
+												"faRemark": {
+													"type": "string"
+												}
+											},
+											"required": [
+												"parameterId",
+												"MaxMarks",
+												"SAScorce",
+												"FAScore",
+												"saRemark",
+												"faRemark"
+											],
+											"additionalProperties": false
+										}
+									}
+								},
+								"required": [
+									"sectionId",
+									"parameters"
+								],
+								"additionalProperties": false
+							}
+						}
+					},
+					"required": [
+						"formType",
+						"formId",
+						"fieldAuditor",
+						"formName",
+						"status",
+						"MaxMarks",
+						"SAScorce",
+						"FAScore",
+						"timing",
+						"sections"
+					],
+					"additionalProperties": false
+				}
+			},
+			"required": [
+				"projectId",
+				"projectName",
+				"form"
+			],
+			"additionalProperties": false
+		}
+	},
+	"required": [
+		"PIAName",
+		"partnerId",
+		"HeadPerson",
+		"Contact",
+		"HeadPersonEmail",
+		"Status",
+		"Score",
+		"trainingCenter",
+		"project"
+	],
+	"additionalProperties": false
+}

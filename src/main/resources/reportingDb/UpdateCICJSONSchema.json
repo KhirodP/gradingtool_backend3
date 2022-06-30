@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "projectId": {
+      "type": "string"
+    },
+    "partnerId": {
+      "type": "string"
+    },
+    "tcId": {
+      "type": "string"
+    },
+    "centerIncharge": {
+      "type": "object",
+      "properties": {
+        "cicName": {
+          "type": "string"
+        },
+        "cicPhone": {
+          "type": "string",
+           "maxLength":10
+        }
+      },
+      "required": [
+        "cicName",
+        "cicPhone"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "projectId",
+    "partnerId",
+    "tcId",
+    "centerIncharge"
+  ],
+  "additionalProperties": false
+}
+
